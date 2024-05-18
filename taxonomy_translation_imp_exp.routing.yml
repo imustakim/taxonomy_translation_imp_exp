@@ -1,0 +1,16 @@
+
+taxonomy_translation_imp_exp.import_csv_report:
+  path: '/admin/config/taxonomy-import-translation'
+  defaults:
+    _form: '\Drupal\taxonomy_translation_imp_exp\Form\ImportTaxonomyTranslationsForm'
+    _title: 'Taxonomy Translation Import'
+  requirements:
+    _permission: 'administer users'
+
+taxonomy_translation_imp_exp.export_csv_report:
+  path: '/admin/config/taxonomy-export-translation'
+  defaults:
+    _form: '\Drupal\taxonomy_translation_imp_exp\Form\ExportTaxonomyTranslationsForm'
+    _title: 'Taxonomy Translation Export'
+  requirements:
+    _permission: 'administer users'

@@ -1,0 +1,5 @@
+taxonomy_translation_imp_exp.generate_reports:
+  title: Taxonomy Translation Reports
+  description: 'Import taxonomy term translations to CSV file'
+  parent: system.admin_config_development
+  route_name: taxonomy_translation_imp_exp.import_csv_report

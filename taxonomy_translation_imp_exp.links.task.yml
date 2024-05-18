@@ -1,0 +1,9 @@
+taxonomy_translation_imp_exp.import_csv_report:
+  route_name: taxonomy_translation_imp_exp.import_csv_report
+  base_route: taxonomy_translation_imp_exp.import_csv_report
+  title: 'Import'
+
+taxonomy_translation_imp_exp.export_csv_report:
+  route_name: taxonomy_translation_imp_exp.export_csv_report
+  base_route: taxonomy_translation_imp_exp.import_csv_report
+  title: 'Export'
